@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+.hero{
+    background: linear-gradient(45deg,pink,blue);
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+
+}
+.hero h1{
+    
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 7%;
+    font-weight: 500;
+    color: aliceblue;
+    text-decoration:underline;
+}
+.hero h1 span{
+    color: rgb(237, 158, 171);
+}
+textarea{
+    height:50%;
+    width:50%;
+    background-color: #f7d9ea;
+    border-radius:10px;
+    border-color: blue;
+    margin-bottom: 5%;
+    border:0;
+    outline:0;
+    color:blueviolet;
+    font-size: 20px;
+    font-weight: 600;
+
+    
+}
+.row{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+
+}
+.row select{
+    flex:1;
+    cursor: pointer;
+    padding:2px 2px;
+    border:0;
+    outline:0;
+    border-radius:5px;
+    height:20px;
+    width:20px;
+}
+button{
+    background-color: rgb(127, 30, 218);
+    color: #f7d9ea;
+    width:100px;
+    height:40px;
+    font-weight:500;
+    margin-left:40px;
+    cursor:pointer;
+    border:0;
+    
+    border-radius:10px;
+}
